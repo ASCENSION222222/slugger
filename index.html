@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="promoting proslugger youtube channel">
+    <title>proslugger youtube channel</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #ff0000;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ff0000;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            background-color: #ff0000;
+            padding: 15px 30px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        footer a:hover {
+            background-color: #e60000;
+            transform: scale(1.05);
+        }
+
+        footer a:active {
+            background-color: #cc0000;
+            transform: scale(1);
+        }
+
+        .floating-texts {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            font-size: 18px;
+            color: #ff0000;
+            z-index: -1;
+            animation: floatText 6s ease-in-out infinite;
+        }
+
+        .floating-text {
+            position: absolute;
+            animation: moveText 6s ease-in-out infinite;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        @keyframes moveText {
+            0% {
+                transform: translate(0, 0);
+            }
+            25% {
+                transform: translate(100px, -50px);
+            }
+            50% {
+                transform: translate(-100px, 50px);
+            }
+            75% {
+                transform: translate(50px, 100px);
+            }
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+
+        @keyframes floatText {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .reasons {
+            margin-top: 30px;
+            text-align: left;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .reasons h2 {
+            color: #ff0000;
+        }
+
+        .reason-item {
+            background-color: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .reason-item h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- header section -->
+    <header>
+        <h1>welcome to proslugger youtube channel</h1>
+        <p>the best place for awesome content and exciting interactions</p>
+    </header>
+
+    <!-- navigation section -->
+    <nav>
+        <a href="#about">about</a>
+        <a href="#reasons">why he's the best</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <!-- about section -->
+    <section id="about">
+        <h2>about proslugger</h2>
+        <p>proslugger is not just any youtuber he's a gaming and entertainment expert who brings joy to his viewers whether it's gaming live streams or fun challenges proslugger's channel is filled with amazing content for everyone he's known for being friendly interactive and always connecting with his audience</p>
+    </section>
+
+    <!-- why he's the best section -->
+    <section id="reasons">
+        <h2>why proslugger is the best</h2>
+        <div class="reasons">
+            <div class="reason-item">
+                <h3>kind and supportive</h3>
+                <p>proslugger is always kind-hearted and supportive he takes time to interact with every viewer making them feel welcome and appreciated</p>
+            </div>
+            <div class="reason-item">
+                <h3>cool and fun content</h3>
+                <p>from epic gaming moments to hilarious challenges proslugger’s content is always fresh fun and cool to watch no dull moments here</p>
+            </div>
+            <div class="reason-item">
+                <h3>interactive with viewers</h3>
+                <p>proslugger goes above and beyond to interact with his audience whether it's through live chats or responding to comments he makes every fan feel like part of the family</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact">
+        <h2>contact proslugger</h2>
+        <p>if you want to reach out to proslugger for collaborations sponsorships or just to say hi feel free to contact him</p>
+        <p>email: <a href="mailto:contact@proslugger.com">contact@proslugger.com</a></p>
+    </section>
+
+
+    <!-- footer section -->
+    <footer>
+        <p>&copy; 2024 proslugger all rights reserved</p>
+        <p><a href="https://www.youtube.com/@ProSlugger5000" target="_blank">visit proslugger youtube channel</a></p>
+    </footer>
+
+</body>
+</html>
